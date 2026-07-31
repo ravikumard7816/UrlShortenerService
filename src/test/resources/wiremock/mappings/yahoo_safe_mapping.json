@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/validate",
+    "bodyPatterns": [
+      {
+        "equalTo": "https://www.yahoo.com"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "safe": true
+    }
+  }
+}
